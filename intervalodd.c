@@ -3,7 +3,7 @@ int main(void)
 {
 int i,first,last;
 scanf("%d%d",&first,&last);
-for(i=first;i<last;i++)
+for(i=first+1;i<last;i++)
 {
 if(i%2==1)
 {
